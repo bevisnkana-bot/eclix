@@ -29,10 +29,20 @@ const mongoose = require("mongoose");
 mongoose.connect("YOUR_MONGO_URL")
 .then(()=>console.log("DB connected"))
 .catch(err => console.log(err));
-//MODELS(USER MODEL)
+//MODELS
+// USER MODEL
 const mongoose =require("mongoose");
 const userSchema=new mongoose.schema({Email:""
                                     Password:""
                                     isAdmin:""
                                     {type:Boolean,default:fault}})
                                     module.exports=mongoose.model("user",userSchema);
+//Property model
+const mongoose=require("mongoose");
+const propertySchema=new mongoose.schema
+({
+    tittle:
+    loact
+}
+
+)
