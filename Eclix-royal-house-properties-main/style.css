@@ -1,0 +1,72 @@
+*{
+    margin:
+    padding;
+    font-family:Arial ,sen serif
+};
+body{
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    background: #0d1b2a;
+    color: white;
+};
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background: white;
+    color: black;
+}
+.logo span{
+    color: gold;
+}
+.hero{
+    height: 100vh;
+    background: url(../Eclix-royal-house-properties-main/House6.jpg)no-repeat center/cover; width: 700px;height: 400px;
+    position: relative;
+    margin-top: 50px;
+}
+.overlay{
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    padding: 60px 20px;
+}
+.overlay h1{
+    font-size: 40px;
+}
+.overlay span{
+    color: gold;
+    font-style: italic;
+}
+.overlay p{
+    margin: 20px 0;
+    max-width:400px;
+}
+.searchbox{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    max-width: 350px;
+}
+.searchbox input,
+.search-box select{
+    width: 100%;
+    padding:10px;
+    margin:10px 0;
+}
+.search-box button{
+    width: 100%;
+    padding:12px;
+    background: #0d1b2a;
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+span{
+    color: gold;
+}
+input,select,button{
+    padding: 10px;
+    margin: 10px;
+}

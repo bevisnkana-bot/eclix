@@ -1,0 +1,60 @@
+*{
+    margin:
+    padding:0;
+    front-family:Arial,sans-serif
+}
+body{
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background: white;
+    color: black;
+}
+.logo span{
+    color: gold;
+}
+.hero{
+    height: 100vh;
+    background: url()no-repeat center/cover;
+    position: relative;
+}
+.overlay{
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    padding: 60px 20px;
+}
+.overlay h1{
+    front-size: 40px;
+}
+.overlay span{
+    color: gold;
+    font-style: italic;
+}
+.overlay p{
+    margin: 20px 0;
+    max-width:400px;
+}
+.searchbox{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    max-width: 350px;
+}
+.searchbox input,
+.search-box select{
+    width: 100%;
+    padding:10px;
+    margin:10px 0;
+}
+.search-box button{
+    width: 100%;
+    padding:12px;
+    background: #0d1b2a;
+    color:white;
+    border: none;
+    cursor: pointer;
+}
